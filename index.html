@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee Project</title>
+    <link rel="stylesheet" href="/css/image/icon/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzMYJnav3IsjWhojNLRgzvctY3vxC0zFMCjA&usqp=CAU" type="image/x-icon" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="grid wide">
+            <div class="header__main">
+                <div class="header__nav">
+                    <div class="header__nav-left">
+                        <li><a href="https://banhang.shopee.vn/account/signin?next=%2F" class="separate">Kênh Người Bán</a></li>
+                        <li><a href="https://shopee.vn/web" class="separate header__nav-left-QR">Tải ứng dụng</a></li>
+                        <li><a href="#" class="header__nav-left--space no-cursor">Kết nối</a>
+                            <a href="https://www.facebook.com/ShopeeVN" class="header__nav-icon header__nav-left--space">
+                                <i class="fa fa-facebook" aria-hidden="true"></i> 
+                            </a>
+                            <a href="https://www.instagram.com/Shopee_VN/" class="header__nav-icon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="header__nav-right">
+                        <li>
+                            <a class="header__nav-icon">
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="header__nav-right--space header__nav-right-noti">Thông Báo</a>
+                        </li>
+                        <li>
+                            <a class="header__nav-icon">
+                                <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://help.shopee.vn/s/" class="header__nav-right--space">Trợ Giúp</a>
+                        </li>
+                        <li><a href="https://shopee.vn/buyer/login/signup?keyword=d%C3%A9p%20nam&next=https%3A%2F%2Fshopee.vn%2Fsearch%3Fkeyword%3Dd%25C3%25A9p%2520nam" 
+                            class="separate" style="font-weight: 600;">Đăng Kí</a></li>
+                        <li><a href="https://shopee.vn/buyer/login?keyword=d%C3%A9p%20nam&next=https%3A%2F%2Fshopee.vn%2Fsearch%3Fkeyword%3Dd%25C3%25A9p%2520nam" 
+                            style="font-weight: 600;">Đăng Nhập</a></li>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="header__search">
+                <a href="https://shopee.vn/" class="header__search-link">
+                    <img src="/css/image/logo/Shopee-Icon-768x766.png" alt="logo" class="header__search-img-logo">
+                    <!-- https://smarttechiot.co.th/wp-content/uploads/2019/03/Shopee-Icon-768x766.png -->
+                    <p class="header__search-name">Shopee</p>
+                </a>
+                <div class="header__search-warpper">
+                    <div class="header__search-sup-warpper">
+                        <div class="header__search-button">
+                            <input type="text" class="button-search" >
+                            <button class="header__search-icon-search">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="header__search-nav">
+                            <li><a href="https://shopee.vn/search?keyword=hoodie%20nam" class="nav-sub">Hoodie Nam</a></li>
+                            <li><a href="https://shopee.vn/search?keyword=sandal%20n%E1%BB%AF" class="nav-sub">Sandal Nữ</a></li>
+                            <li><a href="https://shopee.vn/search?keyword=%C3%A1o%20n%E1%BB%AF" class="nav-sub">Áo Nữ</a></li>
+                            <li><a href="https://shopee.vn/search?keyword=d%C3%A9p%20nam" class="nav-sub">Dép Nam</a></li>
+                            <li><a href="https://shopee.vn/search?keyword=qu%E1%BA%A7n%20nam" class="nav-sub">Quần Nam</a></li>
+                            <li><a href="https://shopee.vn/search?keyword=balo%20n%E1%BB%AF" class="nav-sub">Balo Nữ</a></li>
+                            <li><a href="https://shopee.vn/search?keyword=v%C3%A1y%20tr%E1%BA%AFng " class="nav-sub">Váy Tráng</a></li>
+                            <li><a href="https://shopee.vn/search?keyword=t%E1%BA%A5t%20n%E1%BB%AF" class="nav-sub">Tất Nữ</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__search-icon-cart">
+                    <a href="https://shopee.vn/buyer/login?keyword=d%C3%A9p%20nam&next=https%253A%252F%252Fshopee.vn%252Fsearch%253Fkeyword%253Dd%25C3%25A9p%2520nam">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="search__product grid">
+        <div class="container">
+            <p class="search__product-text">Tim Kiếm Liên Quan</p>
+            <div class="search__product-list">
+                <div class="search__product-list-items item1"> Cổ thấp</div>
+                <div class="search__product-list-items item2">Giày Dép Nữ</div>
+                <div class="search__product-list-items item3">Dép</div>
+                <div class="search__product-list-items item4">Giày lười</div>
+                <div class="search__product-list-items item5">Giày tây</div>
+                <!-- <div class="search__product-list-items item6">Cổ cao</div>
+                <div class="search__product-list-items item7">Giày dép Unisex</div>
+                <div class="search__product-list-items item8">Khác</div>
+                <div class="search__product-list-items item9">Phụ kiện giày dép</div>
+                <div class="search__product-list-items item10">Xăng-đan</div>
+                <div class="search__product-list-items item11">Tăng chiều cao</div>
+                <div class="search__product-list-items item12">Thể Thao & Du Lịch</div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-2" style="background-color: rgba(143, 136, 136, 0.1);">
+    <div class="main grid">
+        <div class="main__left">
+            <div class="main__left-menu">
+                <p class="main__left-menu-filter">BỘ LỌC TÌM KIẾM</p>
+                <div class="box1">
+                    <p class="h2">Theo Danh Mục</p>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" id="search1"><label for="search1">Cổ thấp (471k+)</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="search2"><label for="search2">Giày dép nữ (162k+)</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="search3"><label for="search3">Dép (121k+)</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="search4"><label for="search4">Giày lưới (85k+)</label></a></li>
+                    </ul>
+                </div>
+                <div class="box2">
+                    <p class="h2">Nơi Bán</p>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" id="place1"><label for="place1">Hà Nội</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="place2"><label for="place2">Tp. Hồ Chí Minh</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="place3"><label for="place3">Thái Nguyên</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="place4"><label for="place4">Vĩnh Phúc</label></a></li>
+                    </ul>
+                </div>
+                <div class="box3">
+                    <p class="h2">Theo Danh Mục</p>
+                    <ul>
+                        <li><a href="#"><input type="checkbox" id="search1"><label for="search1">Cổ thấp (471k+)</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="search2"><label for="search2">Giày dép nữ (162k+)</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="search3"><label for="search3">Dép (121k+)</label></a></li>
+                        <li><a href="#"><input type="checkbox" id="search4"><label for="search4">Giày lưới (85k+)</label></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="main__right">
+            <div class="main__right-content">
+                <div class="tools">
+                    123
+                </div>
+
+
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="background">
+                        <p class="background-like">Yêu thích+</p>
+                        <div class="background__box">
+                            <img src="/css/image/logo/back.png" alt="" class="sale">
+                            <p class="text">Tài trợ</p>
+                        </div>
+                        <a href="#"><img src="https://cf.shopee.vn/file/518e7183429d1682f81c75f01641b01a_tn" alt="product" class="product-img"></a>
+                    </div>
+                    <div class="product-infor">
+                        <div class="box">
+                        <p class="product-info-name">DÉP CROSS Cá Full Tag Cao Cấp Đẹp Nhất</p>
+
+                        <p class="product-info-tag">Mua Kèm Deal Sốc</p>
+
+                        <div class="product-info-price">
+                            <p class="price"><u style="font-size: 10px; line-height: 18px; ">đ</u>  130.000</p>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="product-info-evaluation">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <div class="evaluation-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p class="evaluation-state">Đã bán 35,4k</p>
+                        </div>
+                        <p class="product-info-place">Hà Nội</p>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                </div>
+
+                </div>
+        
+        </div>
+       
+    </div>
+    </div>
+
+</body>
+</html>

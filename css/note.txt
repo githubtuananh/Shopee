@@ -1,0 +1,37 @@
+<i class="fa fa-facebook" aria-hidden="true"></i> 
+<i class="fa fa-instagram" aria-hidden="true"></i>
+<i class="fa fa-bell" aria-hidden="true"></i>
+<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+<i class="fa fa-search" aria-hidden="true"></i>
+<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+
+<i class="fa fa-heart-o" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+
+
+<i class="fa fa-angle-left" aria-hidden="true"></i>
+<i class="fa fa-angle-right" aria-hidden="true"></i>
+<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+
+
+header: rgba(247,71,46,1)
+
+
+rgba(134,175,215,1)
+rgba(118,201,189,1)
+rgba(136,207,129,1)
+rgba(134,175,215,1)
+rgba(118,201,189,1)
+
+
+vang: rgba(231,192,33,1)
+backgorund-content-item:rgba(255,255,255,1)
+backgorund-all:rgba(245,245,245,1)
+
+
+boder:rgba(226,226,226,1
+boder foter: grba(238,77,45,1)
+
+https://shopee.vn/search?keyword=d%C3%A9p%20nam
