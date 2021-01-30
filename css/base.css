@@ -91,8 +91,6 @@ header{
 .header__search-warpper{
     width: 840px;
     margin-left: 40px;
-    /* background-color: #ffffff; */
-    /* margin-top: 20px; */
 }
 .header__search .nav-sub{
     font-size: 12px;
@@ -175,10 +173,13 @@ header{
 
 
 /* ---------------------------------------------------------------------- */
-.search__product{
-    height: 70px;
+.container-1{
     background-color: #fff;
     box-shadow:  0px 2px 1px 1px rgba(0,0,0,.1)
+}
+.search__product{
+    height: 70px;
+
 }
 .search__product .search__product-text{
     width: 198px;
@@ -262,16 +263,19 @@ header{
 }
 
 .main__right .main__right-content .product{
+    grid-column: span 3;
     box-shadow: 0 0 5px rgba(0,0,0,.7);
+    border: 1px solid white;
+    transition: 0.1s;
 }
 .main__right .main__right-content{
     display: grid;
-    grid-template-columns: repeat(15,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(1fr,15fr));
     grid-gap:25px;
 
 }
-.main__right .main__right-content .product{
-    grid-column: span 3;
+.main__right .main__right-content .product:hover{
+    border: 1px solid red;
 }
 .main__right .main__right-content .product .background{
     position: relative;
@@ -306,7 +310,7 @@ header{
     width: 90px;
 }
 .main__right .main__right-content .product .product-img{
-    width: 180px;
+    width: 178px;
     height: 180px;
     display: block;
 }
@@ -404,6 +408,10 @@ header{
     font-size: 14px;
     color: #000000CC;
 }
+label{
+    cursor: pointer;
+}
+
 .main__left .h2{
     font-size: 14px;
     color: #000000CC;
